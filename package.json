@@ -2,9 +2,10 @@
   "name": "express-webserver",
   "version": "1.0.0",
   "description": "To serve HTML files (home, about, and contact)",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "nodemon index.js"
   },
   "author": "Brenda",
   "license": "ISC",
